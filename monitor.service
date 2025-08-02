@@ -1,0 +1,6 @@
+[Unit]
+Description=Monitor 'test' process and send heartbeat
+
+[Service]
+Type=oneshot
+ExecStart=/home/ilzar/.local/monitor.sh
